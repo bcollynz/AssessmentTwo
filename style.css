@@ -15,7 +15,9 @@ main{
     grid-template-areas: 
     'a a a a b b'
     'c c c d d d'
-    'c c c e e e';
+    'c c c e e e'
+    'c c c e e e'
+    ;
     gap: 4px; 
     width: 50%;
     margin:auto;
@@ -42,11 +44,11 @@ main div{
    
 }
 .box-d{
-    background-color: rgb(0, 161, 27);
+    background-color: rgb(217, 221, 0);
     grid-area: d;
 }
 .box-e{
-    background-color: rgb(0, 161, 27);
+    background-color: rgb(255, 15, 183);
     grid-area: e ;
     
 }
