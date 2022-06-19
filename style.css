@@ -1,55 +1,33 @@
-*{
-    margin:0;
-    padding:0;
-    
-}
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
 body{
-    background-color: rgba(245, 189, 189, 0.979);
-    display: flex;
-    place-items: center;
-    min-height: 100vh;
+   Font size: 15px 
+   Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+    Weights: 400;
+    Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display);
+    Weights: 700;
 
 }
-main{
-    display: grid;
-    grid-template-areas: 
-    'a a a a b b'
-    'c c c d d d'
-    'c c c e e e'
-    'c c c e e e'
-    ;
-    gap: 4px; 
-    width: 50%;
-    margin:auto;
-       
-}
-main div{
-    padding: 30px ;
-    text-align: center;
-    border-radius: 10px;
-    
-    
-}
-.box-a{
-    background-color: royalblue;
-    grid-area: a;
-}
-.box-b{
-    background-color: rgb(221, 84, 4);
-    grid-area: b ;
-    
-}
-.box-c{
-    background-color: rgb(66, 0, 41);
-    grid-area: c ;
-   
-}
-.box-d{
-    background-color: rgb(217, 221, 0);
-    grid-area: d;
-}
-.box-e{
-    background-color: rgb(255, 15, 183);
-    grid-area: e ;
-    
-}
+
