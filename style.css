@@ -30,6 +30,9 @@ header {
         box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.4);
         border-radius: 20px;
 }
+.box {
+    margin-right: 40px;
+}
 
 .in {
     color: #ddd;
@@ -42,6 +45,17 @@ header {
     padding-top: 20px;
     border-radius: 5px;
     padding-top: 30px;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   @media screen and (min-width: 800px) and (max-width: 1100px)
@@ -71,17 +85,10 @@ header {
   .input:required {
     outline: 2px solid transparent;
   }
-    @media screen and (min-width: 800px) and (max-width: 1100px)
-  input[type="text"], input[type="email"], input[type="password"] {
-    padding-right: 10px;
-  }
-    @media screen and (min-width: 800px) and (max-width: 1100px)
-  input[type="text"], input[type="email"], input[type="password"], input[type="submit"] {
-    width: 300px;
-  }
-  input[type="text"], input[type="email"], input[type="password"] {
+  
+    input[type="text"], input[type="email"], input[type="password"] {
     border: 1px solid #ddd;
-    width: 470px;
+    width: 450px;
     padding-left: 20px;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -102,7 +109,7 @@ header {
   }
   input[type="text"], input[type="email"], input[type="password"] {
     border: 1px solid #ddd;
-    width: 470px;
+    width: 500px;
     padding-left: 20px;
     padding-top: 17px;
     padding-bottom: 17px;
@@ -110,10 +117,7 @@ header {
     margin-bottom: 8px;
   }
 
-  @media screen and (min-width: 800px) and (max-width: 1100px)
-  .last {
-    font-size: 10px;
-  }
+  
   .last {
     color: #ddd;
     text-align: center;
@@ -147,14 +151,6 @@ header {
 
   }
 
-  @media screen and (min-width: 800px) and (max-width: 1100px)
-  input[type="submit"] {
-    width: 330px;
-  }
-    @media screen and (min-width: 800px) and (max-width: 1100px)
-  input[type="text"], input[type="email"], input[type="password"], input[type="submit"] {
-    width: 300px;
-  }
   input[type="submit"] {
     border: 1px solid hsl(154, 59%, 51%);
     background: hsl(154, 59%, 51%);
@@ -175,17 +171,46 @@ header {
     display: none;
     margin-bottom: 10px;
   }
+  
 
   .first {
     width: 350px;
   }
+  @media screen and (min-width: 801px) and (max-width: 900px)
+  header {
+    margin-left: 60px;
+  }
 
+  @media screen and (max-width: 800px)
+  header {
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 5rem;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  @media screen and (max-width: 800px)
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+  }
+  @media screen and (max-width: 800px)
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 .first {
     border: 1px solid hsl(248, 32%, 49%);
     background: hsl(248, 32%, 49%);
     color: white;
     font-size: 13px;
-    width: 510px;
+    width: 550px;
     padding: 17px;
     margin-bottom: 10px;
     border-radius: 10px;
