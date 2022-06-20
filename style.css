@@ -27,15 +27,7 @@ font-family: 'Poppins', sans-serif;
     }
     }
     
-    @media screen and (max-width:375px){
-        body{
-            background:url(images/bg-intro-mobile.png);
-            background-color: hsl(0, 100%, 74%);
-            
-            
-        }
- }
-
+    
    .input:required:focus ~ .error-message{
   	display: block;
   	color: hsl(0, 100%, 74%) ;
@@ -192,6 +184,8 @@ ins{
  p{
  	font-size:13px;
  	margin-left: 20px;
+	
+
  }
 
 input[type=text],
@@ -199,7 +193,7 @@ input[type=email],
 input[type=password],
 input[type=submit]{
 
-	width: 300px;
+	width:350px;
 }
 input[type=text],
 input[type=email],
@@ -210,10 +204,10 @@ input[type=password]{
 	margin-right: 40px;
 }
 .first{
-	width: 350px;
+	width: 400px;
 }
 input[type=submit]{
-	width: 330px;
+	width: 350px;
 }
 
 
@@ -243,7 +237,7 @@ h1{
 
 
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px)  {
  .container{
  	display: flex;
  	flex-direction: column;
@@ -254,7 +248,7 @@ h1{
  
 header{
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 20px;
 	
 	
 	 margin-right: 5rem;
@@ -267,6 +261,8 @@ h1{
 	font-size: 26px;
 	line-height: 28px;
     width:150%;
+	padding-right: 80px;
+	padding-right: 200px;
 
  }
  p{
@@ -274,6 +270,8 @@ h1{
     line-height: 18px;
  	margin-bottom: 40px;
     padding-top: 30px;
+	padding-right: 250px;
+	padding-left: 40px;
     width: 150%;
  }
 input[type=text],
@@ -281,7 +279,7 @@ input[type=email],
 input[type=password],
 input[type=submit]{
 
-	width: 280px;
+	width: 316px;
 }
 input[type=text],
 input[type=email],
@@ -292,13 +290,14 @@ input[type=password]{
 
 
 .first{
-	width: 310px;
+	width: 360px;
 	padding: 24px;
 	line-height: 17px;
 	word-spacing: 2px;
+	
 }
 input[type=submit]{
-	width: 310px
+	width: 316px
 }
 .box{
 	width: 360px;
@@ -318,18 +317,45 @@ input[type=password],
 input[type=submit]{
 
 	width: 250px;
+	
 }
 input[type=text],
 input[type=email],
 input[type=password]{
 	padding-right: 10px;
 }
+body{
+	background:url(images/bg-intro-mobile.png);
+	background-color: hsl(0, 100%, 74%);
+	
 
+}
+p{
+	font-size:16px;
+   line-height: 18px;
+	margin-bottom: 40px;
+   padding-top: 10px;
+   padding-right: 60px;
+   padding-left: 60px;
+   width: 135%;
+}
+.container{
+	height: 750px;
+}
+h1{
+	
+	font-size: 26px;
+	line-height: 28px;
+    width:150%;
+	padding-right: 80px;
+	padding-left: 50px;
+	padding-top: 2px;
 
+ }
 
 .first{
 	width: 300px;
-	padding: 24px;
+	padding: 14px;
     align-items: center;
 	line-height: 17px;
 	word-spacing: 2px;
@@ -342,7 +368,7 @@ input[type=submit]{
 .box{
 	width: 300px;
 	margin: auto;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 }
 .last{
 	font-size: 12px;
